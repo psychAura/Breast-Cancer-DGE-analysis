@@ -1,5 +1,5 @@
 
-DGE analysis to identify cytotoxicity of genes -'BRCA1', 'BRCA2', 'TP53', 'ALK', 'MYCN' from 3 pairs of normal and breast tumor tissues.
+DGE analysis to identify cytotoxicity of genes -'BRCA1', 'BRCA2', 'TP53', 'ALK', 'MYCN' from 30 pairs of normal and breast tumor tissues.
 
 
 Dependencies(Packages)
