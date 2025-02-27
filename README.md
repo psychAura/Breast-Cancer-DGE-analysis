@@ -1,29 +1,44 @@
+## Breast Cancer DGE Analysis
 
-DGE analysis to identify cytotoxicity of genes -'BRCA1', 'BRCA2', 'TP53', 'ALK', 'MYCN' from 30 pairs of normal and breast tumor tissues.
+🧬 Project Overview
 
+This project focuses on the differential gene expression (DGE) analysis to identify cytotoxicity-related genes involved in the progression of breast cancer. Five key genes—BRCA1, BRCA2, TP53, ALK, and MYCN—were identified from RNA sequencing data of breast tumor and normal tissues.
 
-Dependencies(Packages)
- library(tidyverse)
- library(ggplot)
- library(GEOquery)
- library(dplyr)
- ...
+🗂️ Project Structure
 
-Specimen
-Homo sapiens
+data/: Contains normalized FPKM data and metadata.
 
-Expression profiling by high throughput sequencing
+scripts/: R scripts for data manipulation, preprocessing, and visualization.
 
-Summary	
-Breast cancer is one of the deadly tumors in women, and its incidence continues to increase. This study aimed to identify novel therapeutic molecules using RNA sequencing (RNAseq) data of breast cancer from our hospitals.
- 	
-Overall design	
-30 pairs of normal and cancerous tissues from the same excision were collected from the Affiliated Cancer Hospital of Guangzhou Medical University, the Affiliated Cancer Hospital of Sun Yat-sen University and Guangzhou Army General Hospital. RNA sequencing was performed by Guangzhou Huayin Health medical Group. Original reads of RNA sequencing data were normalized as FPKM data.
+heatmap_save1.pdf: Heatmap visualization of gene expression.
 
-Data Manipulation, preprocessing and visualization
--Raw Data normalized using FPKM method
--Counts Matrix spliced and joined with specific columns from metadata file using GEOquery
--Counts cleaned and visualized across different plot diagrams
+🛠️ Technologies Used
 
-Quality control
-....
+R
+
+tidyverse, dplyr, ggplot2, GEOquery
+
+🧑‍🔬 Methodology
+
+RNA sequencing from 30 paired normal and tumor tissues.
+
+Data normalized using the FPKM method.
+
+Counts matrix spliced and joined with metadata.
+
+Quality control and visualization.
+
+🚀 How to Run
+
+Clone the repo: git clone https://github.com/psychAura/Breast-Cancer-DGE-analysis.git
+
+Open RStudio and set the project directory.
+
+Install required libraries.
+
+Run scripts in the scripts/ folder.
+
+📬 Contact
+
+For inquiries or collaboration, reach out via GitHub.
+
